@@ -3,12 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="AIDA - Aide aux initiatives de développement autonomes. Organisation de développement communautaire à Goma, RDC. Mutualité, solidarité et microcrédits." />
-  <meta name="keywords" content="AIDA, Goma, mutualité, solidarité, développement, crédit, RDC" />
+  <meta name="description" content="AIDA - Aide aux initiatives de développement autonomes à Goma, RDC. Mutualité, microcrédit responsable, soutien aux entrepreneurs et développement communautaire local." />
+  <meta name="keywords" content="AIDA, Goma, RDC, mutualité, microcrédit, développement communautaire, solidarité, financement local" />
   <meta name="author" content="AIDA" />
+  <meta name="robots" content="index, follow" />
   <meta property="og:title" content="AIDA - Aide aux initiatives de développement autonomes" />
   <meta property="og:description" content="Organisation de développement communautaire à Goma. Mutualité, solidarité et microcrédits pour l'autonomie locale." />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://aida-goma.org/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AIDA - Aide aux initiatives de développement autonomes" />
+  <meta name="twitter:description" content="AIDA soutient les initiatives locales à Goma grâce à la mutualité, au microcrédit responsable et aux projets de développement communautaire." />
   <meta name="theme-color" content="#1b4f72" />
   
   <title>AIDA - Aide aux initiatives de développement autonomes | Goma, RDC</title>
@@ -20,8 +25,27 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "AIDE aux initiatives de développement autonomes",
+    "alternateName": "AIDA",
+    "url": "https://aida-goma.org/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "N°07, Avenue Kinyangute",
+      "addressLocality": "Goma",
+      "addressRegion": "Nord-Kivu",
+      "addressCountry": "CD"
+    },
+    "description": "Organisation de mutualité et de développement communautaire à Goma, RDC.",
+    "keywords": "mutualité, microcrédit, solidarité, développement local"
+  }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Aller au contenu principal</a>
   <header class="site-header">
     <div class="container header-inner">
       <div class="brand">
@@ -38,7 +62,7 @@
           <span></span>
         </span>
       </button>
-      <nav class="site-nav" id="siteNav">
+      <nav class="site-nav" id="siteNav" role="navigation" aria-label="Navigation principale">
         <a class="nav-link" href="#home">Accueil</a>
         <a class="nav-link" href="#about">À propos</a>
         <a class="nav-link" href="#services">Activités</a>
@@ -49,7 +73,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="main-content">
     <section class="hero" id="home">
       <div class="container hero-grid">
         <div class="hero-copy">

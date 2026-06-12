@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b3151"/>
+      <stop offset="100%" stop-color="#1f8a70"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#heroGrad)" />
+  <circle cx="300" cy="250" r="180" fill="rgba(255,255,255,0.08)" />
+  <circle cx="900" cy="480" r="220" fill="rgba(255,255,255,0.06)" />
+  <circle cx="960" cy="180" r="90" fill="rgba(255,255,255,0.1)" />
+  <text x="50%" y="52%" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="700">Hero Placeholder</text>
+  <text x="50%" y="62%" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="24">Remplace cette image locale par ta photo</text>
+</svg>

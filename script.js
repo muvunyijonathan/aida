@@ -83,6 +83,26 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+// Reveal sections on scroll
+function revealSections() {
+  const sections = document.querySelectorAll('section');
+  const observer = new IntersectionObserver((entries, observerRef) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observerRef.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  sections.forEach(section => {
+    section.classList.add('reveal');
+    observer.observe(section);
+  });
+}
+
+document.addEventListener('DOMContentLoaded', revealSections);
+
 // Close menu when clicking outside
 document.addEventListener('click', (event) => {
   if (!navToggle.contains(event.target) && !siteNav.contains(event.target)) {

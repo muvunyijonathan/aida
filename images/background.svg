@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b4f72"/>
+      <stop offset="100%" stop-color="#1f8a70"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#grad)" />
+  <g opacity="0.16">
+    <rect x="60" y="60" width="1080" height="680" rx="48" fill="#ffffff" />
+  </g>
+  <text x="50%" y="48%" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="72" font-weight="700">Image de fond AIDA</text>
+  <text x="50%" y="60%" text-anchor="middle" fill="#ffffff" font-family="Inter, system-ui, sans-serif" font-size="28">Remplace cette image par ta photo locale</text>
+</svg>
