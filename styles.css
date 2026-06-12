@@ -34,7 +34,7 @@ html {
 body {
   margin: 0;
   font-family: 'Inter', system-ui, sans-serif;
-  background: var(--background);
+  background: linear-gradient(180deg, #f4f8fc 0%, #e8eff6 100%);
   color: var(--text);
   line-height: 1.6;
 }
@@ -187,6 +187,9 @@ img {
 
 .hero {
   padding: 4rem 0 3rem;
+  background: linear-gradient(180deg, rgba(11,18,32,0.72), rgba(11,18,32,0.22)),
+              url('images/hero-background.jpg') center/cover no-repeat;
+  color: #fff;
 }
 
 .hero-grid {
@@ -275,7 +278,7 @@ img {
 }
 
 .section-alt {
-  background: var(--surface);
+  background: linear-gradient(180deg, #ffffff 0%, #f1f6f4 100%);
 }
 
 .section-label {
